@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background: url("bg.jpg");
+    background: url("../img/bg.jpg");
 
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 400px;
     margin: 30px auto;
     background-color: #fff;
@@ -36,7 +36,20 @@ body {
 }
 
 .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
     line-height: 25px;
+    i {
+        font-size: 20px;
+        color: black;
+        transition: 0.5s all;
+        text-decoration: none;
+        &:hover {
+            color: purple;
+            transition: 0.5s all;
+        }
+    }
 }
 
 .info {
