@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: url("bg.jpg");
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+
+.card-ph {
+    padding: 20px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-tt {
+    font-size: 20px;
+    text-align: center;
+}
+
+.hrefs {
+    display: block;
+    text-align: center;
+
+}
+
+.menu {
+    line-height: 25px;
+}
+
+.info {
+    text-align: center;
+}
